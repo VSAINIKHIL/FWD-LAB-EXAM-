@@ -1,39 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Profile</title>
-    <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="style.css">
+    <title>Class Selector Example</title>
+    <style>
+     
+        .highlight {
+            color: blue;
+            font-family: Arial, sans-serif;
+            background-color: lightyellow;
+            padding: 10px;
+            border: 1px solid blue;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>v sai nikhil</h1>
-        </header>
 
-        <section id="about">
-            <h2>reading </h2>
-            <p>
-                Hi! My name is v sai nikhil . I am a passionate individual who loves learning new things and exploring various interests. This is a simple personal profile page built using HTML and CSS.
-            </p>
-        </section>
+    
+    <h1 class="highlight">This is a Heading with Shared Style</h1>
 
-        <section id="hobbies">
-            <h2>My Hobbies</h2>
-            <ul>
-                <li>Reading books and exploring new genres.</li>
-                <li>Playing the guitar and creating music.</li>
-              
-            </ul>
-        </section>
+   
+    <p class="highlight">This is a paragraph with the same shared style as the heading. Multiple elements can point to the same class name.</p>
 
-        <section id="social-media">
-            <h2>Connect With Me</h2>
-            <p>
-                You can connect with me on [LinkedIn]
-        </section>
-    </div>
+    <p>This is a normal paragraph without the highlight class.</p>
+
 </body>
 </html>
